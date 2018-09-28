@@ -57,8 +57,8 @@ add_theme_support('disable-custom-colors');
 //include 'card/index.php';
 
 // Añadiendo estilos genericos al front end
-function wo_blocks_style() {
-    /** Enqueue Style Sheets */
-    wp_enqueue_style( 'wo-blocks-style', plugin_dir_url( __FILE__ ) . 'blocks.css', array(), '0.1', 'screen' );
-}
-add_action( 'wp_enqueue_scripts', 'wo_blocks_style' );
+//function wo_blocks_style() {
+//    /** Enqueue Style Sheets */
+//    wp_enqueue_style( 'wo-blocks-style', plugin_dir_url( __FILE__ ) . 'blocks.css', array(), '0.1', 'screen' );
+//}
+//add_action( 'wp_enqueue_scripts', 'wo_blocks_style' );
