@@ -1,1 +1,32 @@
-/*Estilar aquí*/
+.has-background {
+  padding: 2rem 3rem; }
+
+.has-background.has-sarada-background-color {
+  background-color: #E04F50; }
+
+.has-background.has-mitsuki-background-color {
+  background-color: #0094C4; }
+
+.has-background.has-boruto-background-color {
+  background-color: #F7AF2E; }
+
+.has-background.has-dark-background-color {
+  background-color: #00355F; }
+
+.has-background.has-white-background-color {
+  background-color: #FFFFFF; }
+
+.has-sarada-color {
+  color: #E04F50; }
+
+.has-mitsuki-color {
+  color: #0094C4; }
+
+.has-boruto-color {
+  color: #F7AF2E; }
+
+.has-dark-color {
+  color: #00355F; }
+
+.has-white-color {
+  color: #FFFFFF; }

@@ -24,17 +24,17 @@ add_theme_support('align-wide');
 add_theme_support( 'editor-color-palette', array(
     array(
         'name'  => __( 'Sarada', 'wo-blocks' ),
-        'slug'  => 'red',
+        'slug'  => 'sarada',
         'color' => '#E04F50',
     ),
     array(
         'name'  => __( 'Mitsuki', 'wo-blocks' ),
-        'slug'  => 'blue',
+        'slug'  => 'mitsuki',
         'color' => '#0094C4',
     ),
     array(
         'name'  => __( 'Boruto', 'wo-blocks' ),
-        'slug'  => 'yellow',
+        'slug'  => 'boruto',
         'color' => '#F7AF2E',
     ),
     array(
@@ -57,8 +57,8 @@ add_theme_support('disable-custom-colors');
 //include 'card/index.php';
 
 // Añadiendo estilos genericos al front end
-//function wo_blocks_style() {
-//    /** Enqueue Style Sheets */
-//    wp_enqueue_style( 'wo-blocks-style', plugin_dir_url( __FILE__ ) . 'blocks.css', array(), '0.1', 'screen' );
-//}
-//add_action( 'wp_enqueue_scripts', 'wo_blocks_style' );
+function wo_blocks_style() {
+    /** Enqueue Style Sheets */
+    wp_enqueue_style( 'wo-blocks-style', plugin_dir_url( __FILE__ ) . 'blocks.css', array(), '0.1', 'screen' );
+}
+add_action( 'wp_enqueue_scripts', 'wo_blocks_style' );

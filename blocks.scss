@@ -1,0 +1,29 @@
+// Color class generator
+
+$colors: (
+    sarada: #E04F50,
+    mitsuki: #0094C4,
+    boruto: #F7AF2E,
+    dark: #00355F,
+    white: #FFFFFF
+);
+
+.has-background{
+    padding: 2rem 3rem;   
+}
+
+// Backgrounds
+
+@each $name, $value in $colors{
+    .has-background.has-#{$name}-background-color{
+        background-color: $value;
+    }
+}
+
+// Text Color
+
+@each $name, $value in $colors{
+    .has-#{$name}-color{
+        color: $value;
+    }
+}
