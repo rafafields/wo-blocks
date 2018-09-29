@@ -16,7 +16,7 @@ $colors: (
 
 @each $name, $value in $colors{
     .has-#{$name}-background-color{
-        background-color: $value;
+        background-color: $value !important;
     }
 }
 
@@ -24,6 +24,6 @@ $colors: (
 
 @each $name, $value in $colors{
     .has-#{$name}-color{
-        color: $value;
+        color: $value !important;
     }
 }
