@@ -15,7 +15,7 @@ $colors: (
 // Backgrounds
 
 @each $name, $value in $colors{
-    .has-background.has-#{$name}-background-color{
+    .has-#{$name}-background-color{
         background-color: $value;
     }
 }

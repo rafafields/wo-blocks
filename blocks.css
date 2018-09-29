@@ -1,19 +1,19 @@
 .has-background {
   padding: 2rem 3rem; }
 
-.has-background.has-sarada-background-color {
+.has-sarada-background-color {
   background-color: #E04F50; }
 
-.has-background.has-mitsuki-background-color {
+.has-mitsuki-background-color {
   background-color: #0094C4; }
 
-.has-background.has-boruto-background-color {
+.has-boruto-background-color {
   background-color: #F7AF2E; }
 
-.has-background.has-dark-background-color {
+.has-dark-background-color {
   background-color: #00355F; }
 
-.has-background.has-white-background-color {
+.has-white-background-color {
   background-color: #FFFFFF; }
 
 .has-sarada-color {
